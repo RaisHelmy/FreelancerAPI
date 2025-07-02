@@ -11,6 +11,7 @@
 /Users/raishelmy/Downloads/FreelancerDirectory/FreelancerDirectory.Infrastructure/obj/Debug/net10.0/FreelancerDirectory.Infrastructure.AssemblyInfoInputs.cache
 /Users/raishelmy/Downloads/FreelancerDirectory/FreelancerDirectory.Infrastructure/obj/Debug/net10.0/FreelancerDirectory.Infrastructure.AssemblyInfo.cs
 /Users/raishelmy/Downloads/FreelancerDirectory/FreelancerDirectory.Infrastructure/obj/Debug/net10.0/FreelancerDirectory.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/raishelmy/Downloads/FreelancerDirectory/FreelancerDirectory.Infrastructure/obj/Debug/net10.0/FreelancerDirectory.Infrastructure.sourcelink.json
 /Users/raishelmy/Downloads/FreelancerDirectory/FreelancerDirectory.Infrastructure/obj/Debug/net10.0/Freelanc.2571ADC8.Up2Date
 /Users/raishelmy/Downloads/FreelancerDirectory/FreelancerDirectory.Infrastructure/obj/Debug/net10.0/FreelancerDirectory.Infrastructure.dll
 /Users/raishelmy/Downloads/FreelancerDirectory/FreelancerDirectory.Infrastructure/obj/Debug/net10.0/refint/FreelancerDirectory.Infrastructure.dll

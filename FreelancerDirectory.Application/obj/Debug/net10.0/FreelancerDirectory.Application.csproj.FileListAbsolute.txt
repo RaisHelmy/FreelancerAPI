@@ -8,6 +8,7 @@
 /Users/raishelmy/Downloads/FreelancerDirectory/FreelancerDirectory.Application/obj/Debug/net10.0/FreelancerDirectory.Application.AssemblyInfoInputs.cache
 /Users/raishelmy/Downloads/FreelancerDirectory/FreelancerDirectory.Application/obj/Debug/net10.0/FreelancerDirectory.Application.AssemblyInfo.cs
 /Users/raishelmy/Downloads/FreelancerDirectory/FreelancerDirectory.Application/obj/Debug/net10.0/FreelancerDirectory.Application.csproj.CoreCompileInputs.cache
+/Users/raishelmy/Downloads/FreelancerDirectory/FreelancerDirectory.Application/obj/Debug/net10.0/FreelancerDirectory.Application.sourcelink.json
 /Users/raishelmy/Downloads/FreelancerDirectory/FreelancerDirectory.Application/obj/Debug/net10.0/Freelanc.278D2657.Up2Date
 /Users/raishelmy/Downloads/FreelancerDirectory/FreelancerDirectory.Application/obj/Debug/net10.0/FreelancerDirectory.Application.dll
 /Users/raishelmy/Downloads/FreelancerDirectory/FreelancerDirectory.Application/obj/Debug/net10.0/refint/FreelancerDirectory.Application.dll

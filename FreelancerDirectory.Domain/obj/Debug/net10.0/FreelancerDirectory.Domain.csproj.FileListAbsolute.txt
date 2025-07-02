@@ -5,6 +5,7 @@
 /Users/raishelmy/Downloads/FreelancerDirectory/FreelancerDirectory.Domain/obj/Debug/net10.0/FreelancerDirectory.Domain.AssemblyInfoInputs.cache
 /Users/raishelmy/Downloads/FreelancerDirectory/FreelancerDirectory.Domain/obj/Debug/net10.0/FreelancerDirectory.Domain.AssemblyInfo.cs
 /Users/raishelmy/Downloads/FreelancerDirectory/FreelancerDirectory.Domain/obj/Debug/net10.0/FreelancerDirectory.Domain.csproj.CoreCompileInputs.cache
+/Users/raishelmy/Downloads/FreelancerDirectory/FreelancerDirectory.Domain/obj/Debug/net10.0/FreelancerDirectory.Domain.sourcelink.json
 /Users/raishelmy/Downloads/FreelancerDirectory/FreelancerDirectory.Domain/obj/Debug/net10.0/FreelancerDirectory.Domain.dll
 /Users/raishelmy/Downloads/FreelancerDirectory/FreelancerDirectory.Domain/obj/Debug/net10.0/refint/FreelancerDirectory.Domain.dll
 /Users/raishelmy/Downloads/FreelancerDirectory/FreelancerDirectory.Domain/obj/Debug/net10.0/FreelancerDirectory.Domain.pdb
