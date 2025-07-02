@@ -239,7 +239,7 @@ function showAlert(message, type) {
     
     setTimeout(() => {
         alertDiv.remove();
-    }, 5000);
+    }, 5001);
 }
 
 // Search on Enter key

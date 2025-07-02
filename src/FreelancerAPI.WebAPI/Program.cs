@@ -12,11 +12,22 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Database// Database - Update this section
+// Configure connection string with environment variable support
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+// Replace environment variables in connection string
+if (!string.IsNullOrEmpty(connectionString))
+{
+    connectionString = connectionString
+        .Replace("${DB_HOST}", Environment.GetEnvironmentVariable("DB_HOST") ?? "localhost,1433")
+        .Replace("${DB_NAME}", Environment.GetEnvironmentVariable("DB_NAME") ?? "FreelancerApiDb")
+        .Replace("${DB_USER}", Environment.GetEnvironmentVariable("DB_USER") ?? "sa")
+        .Replace("${DB_PASSWORD}", Environment.GetEnvironmentVariable("DB_PASSWORD") ?? "YourStrong@Passw0rd");
+}
+
+// Database
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(
-        builder.Configuration.GetConnectionString("DefaultConnection"),
-        b => b.MigrationsAssembly("FreelancerAPI.WebAPI")));  // Add this line
+    options.UseSqlServer(connectionString));
 
 // AutoMapper
 builder.Services.AddAutoMapper(typeof(MappingProfile));
@@ -37,8 +48,16 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-app.UseHttpsRedirection();
+else
+{
+    // Enable Swagger in production for easy API testing
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Freelancer API V1");
+        c.RoutePrefix = "swagger";
+    });
+}
 
 // Enable static files
 app.UseStaticFiles();
@@ -51,5 +70,20 @@ app.MapGet("/", async context =>
 
 app.UseAuthorization();
 app.MapControllers();
+
+// Auto-apply migrations on startup (optional - for easier deployment)
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    try
+    {
+        context.Database.Migrate();
+        Console.WriteLine("Database migrations applied successfully.");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Error applying migrations: {ex.Message}");
+    }
+}
 
 app.Run();
