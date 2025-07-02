@@ -1,0 +1,16 @@
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Application/obj/Debug/net8.0/FreelancerAPI.Application.csproj.AssemblyReference.cache
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Application/obj/Debug/net8.0/FreelancerAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Application/obj/Debug/net8.0/FreelancerAPI.Application.AssemblyInfoInputs.cache
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Application/obj/Debug/net8.0/FreelancerAPI.Application.AssemblyInfo.cs
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Application/obj/Debug/net8.0/FreelancerAPI.Application.csproj.CoreCompileInputs.cache
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Application/obj/Debug/net8.0/FreelancerAPI.Application.sourcelink.json
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Application/bin/Debug/net8.0/FreelancerAPI.Application.deps.json
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Application/bin/Debug/net8.0/FreelancerAPI.Application.dll
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Application/bin/Debug/net8.0/FreelancerAPI.Application.pdb
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Application/bin/Debug/net8.0/FreelancerAPI.Domain.dll
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Application/bin/Debug/net8.0/FreelancerAPI.Domain.pdb
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Application/obj/Debug/net8.0/Freelanc.7163A512.Up2Date
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Application/obj/Debug/net8.0/FreelancerAPI.Application.dll
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Application/obj/Debug/net8.0/refint/FreelancerAPI.Application.dll
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Application/obj/Debug/net8.0/FreelancerAPI.Application.pdb
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Application/obj/Debug/net8.0/ref/FreelancerAPI.Application.dll

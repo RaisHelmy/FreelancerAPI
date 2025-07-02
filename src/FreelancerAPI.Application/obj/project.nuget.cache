@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Tx3VpeXSQx8=",
+  "success": true,
+  "projectFilePath": "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Application/FreelancerAPI.Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/raishelmy/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
+    "/Users/raishelmy/.nuget/packages/fluentvalidation/12.0.0/fluentvalidation.12.0.0.nupkg.sha512",
+    "/Users/raishelmy/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/raishelmy/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/raishelmy/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/raishelmy/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

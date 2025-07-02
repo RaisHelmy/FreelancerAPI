@@ -1,0 +1,12 @@
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Domain/bin/Debug/net8.0/FreelancerAPI.Domain.deps.json
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Domain/bin/Debug/net8.0/FreelancerAPI.Domain.dll
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Domain/bin/Debug/net8.0/FreelancerAPI.Domain.pdb
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Domain/obj/Debug/net8.0/FreelancerAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Domain/obj/Debug/net8.0/FreelancerAPI.Domain.AssemblyInfoInputs.cache
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Domain/obj/Debug/net8.0/FreelancerAPI.Domain.AssemblyInfo.cs
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Domain/obj/Debug/net8.0/FreelancerAPI.Domain.csproj.CoreCompileInputs.cache
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Domain/obj/Debug/net8.0/FreelancerAPI.Domain.sourcelink.json
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Domain/obj/Debug/net8.0/FreelancerAPI.Domain.dll
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Domain/obj/Debug/net8.0/refint/FreelancerAPI.Domain.dll
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Domain/obj/Debug/net8.0/FreelancerAPI.Domain.pdb
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Domain/obj/Debug/net8.0/ref/FreelancerAPI.Domain.dll

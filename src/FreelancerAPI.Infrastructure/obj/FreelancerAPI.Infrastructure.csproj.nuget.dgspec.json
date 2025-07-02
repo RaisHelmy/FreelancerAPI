@@ -1,0 +1,219 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Infrastructure/FreelancerAPI.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Application/FreelancerAPI.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Application/FreelancerAPI.Application.csproj",
+        "projectName": "FreelancerAPI.Application",
+        "projectPath": "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Application/FreelancerAPI.Application.csproj",
+        "packagesPath": "/Users/raishelmy/.nuget/packages/",
+        "outputPath": "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/raishelmy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Domain/FreelancerAPI.Domain.csproj": {
+                "projectPath": "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Domain/FreelancerAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.411/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Domain/FreelancerAPI.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Domain/FreelancerAPI.Domain.csproj",
+        "projectName": "FreelancerAPI.Domain",
+        "projectPath": "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Domain/FreelancerAPI.Domain.csproj",
+        "packagesPath": "/Users/raishelmy/.nuget/packages/",
+        "outputPath": "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/raishelmy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.411/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Infrastructure/FreelancerAPI.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Infrastructure/FreelancerAPI.Infrastructure.csproj",
+        "projectName": "FreelancerAPI.Infrastructure",
+        "projectPath": "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Infrastructure/FreelancerAPI.Infrastructure.csproj",
+        "packagesPath": "/Users/raishelmy/.nuget/packages/",
+        "outputPath": "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/raishelmy/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Application/FreelancerAPI.Application.csproj": {
+                "projectPath": "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Application/FreelancerAPI.Application.csproj"
+              },
+              "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Domain/FreelancerAPI.Domain.csproj": {
+                "projectPath": "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.Domain/FreelancerAPI.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.411/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
