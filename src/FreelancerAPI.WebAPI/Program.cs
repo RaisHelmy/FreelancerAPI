@@ -12,9 +12,11 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Database
+// Database// Database - Update this section
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        b => b.MigrationsAssembly("FreelancerAPI.WebAPI")));  // Add this line
 
 // AutoMapper
 builder.Services.AddAutoMapper(typeof(MappingProfile));
@@ -37,6 +39,16 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// Enable static files
+app.UseStaticFiles();
+
+// Default route to serve index.html
+app.MapGet("/", async context =>
+{
+    context.Response.Redirect("/index.html");
+});
+
 app.UseAuthorization();
 app.MapControllers();
 

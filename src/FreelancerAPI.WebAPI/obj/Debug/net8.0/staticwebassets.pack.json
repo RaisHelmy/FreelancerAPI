@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.WebAPI/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.WebAPI/wwwroot/js/app.js",
+      "PackagePath": "staticwebassets/js/app.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.FreelancerAPI.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.FreelancerAPI.WebAPI.props",
+      "PackagePath": "build\\FreelancerAPI.WebAPI.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.FreelancerAPI.WebAPI.props",
+      "PackagePath": "buildMultiTargeting\\FreelancerAPI.WebAPI.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.FreelancerAPI.WebAPI.props",
+      "PackagePath": "buildTransitive\\FreelancerAPI.WebAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

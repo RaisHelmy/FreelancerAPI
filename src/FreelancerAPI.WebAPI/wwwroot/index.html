@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer Management System</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .container { margin-top: 30px; }
+        .card { margin-bottom: 20px; }
+        .btn-group { margin: 10px 0; }
+        .freelancer-card { 
+            border-left: 4px solid #007bff; 
+            transition: all 0.3s ease;
+        }
+        .freelancer-card:hover { 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+        }
+        .archived { 
+            border-left-color: #dc3545;
+            opacity: 0.7;
+        }
+        .skillset, .hobby {
+            display: inline-block;
+            background: #e9ecef;
+            padding: 2px 8px;
+            margin: 2px;
+            border-radius: 12px;
+            font-size: 0.85em;
+        }
+        .skillset { background: #d1ecf1; }
+        .hobby { background: #d4edda; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mb-4">Freelancer Management System</h1>
+        
+        <!-- Search Bar -->
+        <div class="row mb-4">
+            <div class="col-md-8">
+                <input type="text" id="searchInput" class="form-control" placeholder="Search freelancers by username or email...">
+            </div>
+            <div class="col-md-4">
+                <button class="btn btn-primary" onclick="searchFreelancers()">Search</button>
+                <button class="btn btn-secondary" onclick="loadFreelancers()">Clear</button>
+            </div>
+        </div>
+
+        <!-- Add New Freelancer Button -->
+        <div class="mb-3">
+            <button class="btn btn-success" onclick="showAddModal()">Add New Freelancer</button>
+        </div>
+
+        <!-- Freelancers List -->
+        <div id="freelancersList" class="row">
+            <!-- Dynamic content will be loaded here -->
+        </div>
+    </div>
+
+    <!-- Add/Edit Modal -->
+    <div class="modal fade" id="freelancerModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle">Add Freelancer</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="freelancerForm">
+                        <input type="hidden" id="freelancerId">
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Username *</label>
+                            <input type="text" class="form-control" id="username" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email *</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phoneNumber" class="form-label">Phone Number *</label>
+                            <input type="tel" class="form-control" id="phoneNumber" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="skillsets" class="form-label">Skillsets (comma-separated)</label>
+                            <input type="text" class="form-control" id="skillsets" placeholder="e.g., C#, JavaScript, React">
+                        </div>
+                        <div class="mb-3">
+                            <label for="hobbies" class="form-label">Hobbies (comma-separated)</label>
+                            <input type="text" class="form-control" id="hobbies" placeholder="e.g., Reading, Gaming, Cooking">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" onclick="saveFreelancer()">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

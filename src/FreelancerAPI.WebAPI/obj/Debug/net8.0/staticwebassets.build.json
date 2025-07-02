@@ -1,11 +1,58 @@
 {
   "Version": 1,
-  "Hash": "Ze/wr89iy2FV0bvhxEWHtIb0sgVP+MfxhLQ7s/t9l5o=",
+  "Hash": "QErGXIxzdATGOz/7DUTu8rjlxl6WJvObqveAMQZD24k=",
   "Source": "FreelancerAPI.WebAPI",
   "BasePath": "_content/FreelancerAPI.WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "FreelancerAPI.WebAPI/wwwroot",
+      "Source": "FreelancerAPI.WebAPI",
+      "ContentRoot": "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.WebAPI/wwwroot/",
+      "BasePath": "_content/FreelancerAPI.WebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.WebAPI/wwwroot/index.html",
+      "SourceId": "FreelancerAPI.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.WebAPI/wwwroot/",
+      "BasePath": "_content/FreelancerAPI.WebAPI",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.WebAPI/wwwroot/js/app.js",
+      "SourceId": "FreelancerAPI.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.WebAPI/wwwroot/",
+      "BasePath": "_content/FreelancerAPI.WebAPI",
+      "RelativePath": "js/app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/app.js"
+    }
+  ]
 }

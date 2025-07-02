@@ -178,3 +178,4 @@
 /Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.WebAPI/obj/Debug/net8.0/FreelancerAPI.WebAPI.pdb
 /Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.WebAPI/obj/Debug/net8.0/FreelancerAPI.WebAPI.genruntimeconfig.cache
 /Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.WebAPI/obj/Debug/net8.0/ref/FreelancerAPI.WebAPI.dll
+/Users/raishelmy/Downloads/FreelancerAPI/src/FreelancerAPI.WebAPI/bin/Debug/net8.0/FreelancerAPI.WebAPI.staticwebassets.runtime.json
