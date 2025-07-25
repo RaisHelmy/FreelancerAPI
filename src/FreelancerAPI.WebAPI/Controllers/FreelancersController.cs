@@ -15,10 +15,17 @@ namespace FreelancerAPI.WebAPI.Controllers
             _freelancerService = freelancerService;
         }
 
+        // [HttpGet]
+        // public async Task<ActionResult<IEnumerable<FreelancerDto>>> GetAll()
+        // {
+        //     var freelancers = await _freelancerService.GetAllAsync();
+        //     return Ok(freelancers);
+        // }
+
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<FreelancerDto>>> GetAll()
+        public async Task<ActionResult<IEnumerable<FreelancerDto>>> GetAllPagedAsync([FromQuery] int pageNumber = 1,[FromQuery] int pageSize = 10)
         {
-            var freelancers = await _freelancerService.GetAllAsync();
+            var freelancers = await _freelancerService.GetAllPagedAsync(pageNumber, pageSize);
             return Ok(freelancers);
         }
 

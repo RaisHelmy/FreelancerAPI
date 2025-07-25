@@ -55,10 +55,10 @@ namespace FreelancerAPI.Application.Services
                 {
                     skillset = await _skillsetRepository.CreateAsync(new Skillset { Name = skillsetName });
                 }
-                freelancer.FreelancerSkillsets.Add(new FreelancerSkillset 
-                { 
-                    Freelancer = freelancer, 
-                    Skillset = skillset 
+                freelancer.FreelancerSkillsets.Add(new FreelancerSkillset
+                {
+                    Freelancer = freelancer,
+                    Skillset = skillset
                 });
             }
 
@@ -70,10 +70,10 @@ namespace FreelancerAPI.Application.Services
                 {
                     hobby = await _hobbyRepository.CreateAsync(new Hobby { Name = hobbyName });
                 }
-                freelancer.FreelancerHobbies.Add(new FreelancerHobby 
-                { 
-                    Freelancer = freelancer, 
-                    Hobby = hobby 
+                freelancer.FreelancerHobbies.Add(new FreelancerHobby
+                {
+                    Freelancer = freelancer,
+                    Hobby = hobby
                 });
             }
 
@@ -103,10 +103,10 @@ namespace FreelancerAPI.Application.Services
                 {
                     skillset = await _skillsetRepository.CreateAsync(new Skillset { Name = skillsetName });
                 }
-                freelancer.FreelancerSkillsets.Add(new FreelancerSkillset 
-                { 
-                    FreelancerId = freelancer.Id, 
-                    SkillsetId = skillset.Id 
+                freelancer.FreelancerSkillsets.Add(new FreelancerSkillset
+                {
+                    FreelancerId = freelancer.Id,
+                    SkillsetId = skillset.Id
                 });
             }
 
@@ -118,10 +118,10 @@ namespace FreelancerAPI.Application.Services
                 {
                     hobby = await _hobbyRepository.CreateAsync(new Hobby { Name = hobbyName });
                 }
-                freelancer.FreelancerHobbies.Add(new FreelancerHobby 
-                { 
-                    FreelancerId = freelancer.Id, 
-                    HobbyId = hobby.Id 
+                freelancer.FreelancerHobbies.Add(new FreelancerHobby
+                {
+                    FreelancerId = freelancer.Id,
+                    HobbyId = hobby.Id
                 });
             }
 
@@ -148,6 +148,19 @@ namespace FreelancerAPI.Application.Services
         public async Task UnarchiveAsync(int id)
         {
             await _freelancerRepository.UnarchiveAsync(id);
+        }
+
+        public async Task<PagedResult<FreelancerDto>> GetAllPagedAsync(int pageNumber, int pageSize)
+        {
+            var (data, totalCount) = await _freelancerRepository.GetAllPagedAsync(pageNumber, pageSize);
+            var freelancerDtos = _mapper.Map<IEnumerable<FreelancerDto>>(data);
+            return new PagedResult<FreelancerDto>
+            {
+                Data = freelancerDtos.ToList(),
+                PageNumber = pageNumber,
+                PageSize = pageSize,
+                TotalCount = totalCount,
+            };
         }
     }
 }

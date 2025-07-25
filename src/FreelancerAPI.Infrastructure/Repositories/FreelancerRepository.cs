@@ -90,5 +90,23 @@ namespace FreelancerAPI.Infrastructure.Repositories
                 await _context.SaveChangesAsync();
             }
         }
+
+        public async Task<(IEnumerable<Freelancer> data, int TotalCount)> GetAllPagedAsync(int pageNumber, int pageSize)
+        {
+            var query = _context.Freelancers
+                .Include(f => f.FreelancerSkillsets)
+                    .ThenInclude(fs => fs.Skillset)
+                .Include(f => f.FreelancerHobbies)
+                    .ThenInclude(fh => fh.Hobby);
+            // .AsQueryable();
+
+            var totalCount = await query.CountAsync();
+            var data = await query
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .ToListAsync();
+            
+            return (data, totalCount);
+        }
     }
 }

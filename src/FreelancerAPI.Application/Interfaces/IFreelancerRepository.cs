@@ -12,5 +12,7 @@ namespace FreelancerAPI.Application.Interfaces
         Task<IEnumerable<Freelancer>> SearchAsync(string searchTerm);
         Task ArchiveAsync(int id);
         Task UnarchiveAsync(int id);
+
+        Task<(IEnumerable<Freelancer> data, int TotalCount)> GetAllPagedAsync(int pageNumber, int pageSize);
     }
 }
